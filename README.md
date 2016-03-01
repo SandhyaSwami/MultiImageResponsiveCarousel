@@ -19,7 +19,7 @@ I have developed a very simple ***Multi-Page Carousel*** for all the devices usi
 
 For any queries/feedback/issues please get in touch with me on my e-mail id SandhySwami.mail@gmail.com
 
-[**<i class="glyphicon glyphicon-envelope"></i>** SandhySwami.mail@gmail.com](#SandhySwami.mail@gmail.com)
+
 
 
 
