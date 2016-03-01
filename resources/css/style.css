@@ -1,0 +1,305 @@
+.carousel-control.right {
+    right: -12px;
+}
+.staplesBuAd-SpotLgtLeftControl{
+    margin-top: 90%;
+    margin-left: 30px;
+    width: 100%;
+    border: none;
+    background: none !important;
+}
+.staplesBuAd-SpotLgtRightControl{
+    margin-top: 90%;
+    margin-right: 40px;
+    width: 100%;
+    border: none;
+    background: none !important;
+}
+/*The indicators commenting temporarily still confirmation*/
+/*.carousel-indicators {*/
+/*right: 50%;*/
+/*top: auto;*/
+/*bottom: -10px;*/
+/*margin-right: -19px;*/
+/*}*/
+/*!* The colour of the indicators *!*/
+/*.carousel-indicators li {*/
+/*background: #cecece;*/
+/*}*/
+/*.carousel-indicators .active {*/
+/*background: #428bca;*/
+/*}*/
+/*div.staplesBuAd-img.col-md-3 {*/
+/*padding: 0px;*/
+/*}*/
+
+/*indicator ends here*/
+
+/*// The image hover ef*/
+/*@font-face {*/
+/*font-weight: normal;*/
+/*font-style: normal;*/
+/*font-family: 'feathericons';*/
+/*src:url('../fonts/feathericons/feathericons.eot?-8is7zf');*/
+/*src:url('../fonts/feathericons/feathericons.eot?#iefix-8is7zf') format('embedded-opentype'),*/
+/*url('../fonts/feathericons/feathericons.woff?-8is7zf') format('woff'),*/
+/*url('../fonts/feathericons/feathericons.ttf?-8is7zf') format('truetype'),*/
+/*url('../fonts/feathericons/feathericons.svg?-8is7zf#feathericons') format('svg');*/
+/*}*/
+.staplesBuAd-SpotLgtUserPlayIcon{
+    opacity: 1;
+}
+.staplesBuAd-img{
+    padding: 0px;
+    opacity: .6;
+}
+.staplesBuAd-captionContainer{
+    background-color: black;
+    opacity: 0.4;
+}
+figure {
+    position: relative;
+    float: left;
+    overflow: hidden;
+    max-height: 250px;
+    text-align: center;
+    cursor: pointer;
+}
+
+figure img {
+    position: relative;
+    display: block;
+    min-height: 100%;
+    max-width: 100%;
+    opacity: 0.8;
+}
+
+figure figcaption {
+    padding: 2em;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 1.25em;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+
+figure figcaption::before,
+figure figcaption::after {
+    pointer-events: none;
+}
+
+figure figcaption,
+figure figcaption > a {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+/* Anchor will cover the whole item by default */
+/* For some effects it will show as a button */
+figure figcaption > a {
+    z-index: 1000;
+    text-indent: 200%;
+    white-space: nowrap;
+    font-size: 0;
+    opacity: 0;
+}
+
+figure h6 {
+    word-spacing: -0.15em;
+    font-weight: 200;
+    font-size: 16px;
+}
+
+figure h6 span {
+    font-weight: 100;
+}
+
+figure h6,
+figure p {
+    margin: 0;
+}
+
+.staplesBuAd-SpotLgtUserName{
+    display: inline;
+    margin-right: 28px;
+}
+
+figure p {
+    letter-spacing: 1px;
+    font-size: 50%;
+}
+
+/* Individual effects */
+
+/*---------------*/
+/***** Lily *****/
+/*---------------*/
+
+figure.effect-lily img {
+    max-width: none;
+    width: -webkit-calc(100% + 50px);
+    width: calc(100% + 50px);
+    opacity: 0.7;
+    -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+    transition: opacity 0.35s, transform 0.35s;
+    -webkit-transform: translate3d(-40px,0, 0);
+    transform: translate3d(-40px,0,0);
+}
+
+figure.effect-lily figcaption {
+    text-align: left;
+}
+
+figure.effect-lily figcaption > div {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 30%;
+    padding-left: 20px;
+}
+
+figure.effect-lily h6,
+figure.effect-lily p {
+    -webkit-transform: translate3d(0,30px,0);
+    transform: translate3d(0,30px,0);
+}
+
+figure.effect-lily h6 {
+    /*-webkit-transition: -webkit-transform 0.35s;*/
+    /*transition: transform 0.35s;*/
+    color: rgba(255,255,255,0.8);
+
+    /*opacity: 0;*/
+    -webkit-transition: opacity 0.2s, -webkit-transform 0.35s;
+    transition: opacity 0.2s, transform 0.35s;
+}
+
+figure.effect-lily p {
+    color: rgba(255,255,255,0.8);
+    opacity: 0;
+    -webkit-transition: opacity 0.2s, -webkit-transform 0.35s;
+    transition: opacity 0.2s, transform 0.35s;
+}
+figure.effect-lily:hover div{
+    background-color: orange;
+}
+figure.effect-lily:hover img,
+figure.effect-lily:hover figure,
+figure.effect-lily:hover figcaption,
+figure.effect-lily:hover p,
+figure.effect-lily:hover h6,
+figure.effect-lily:hover i,
+.staplesBuAd-img:hover,
+.staplesBuAd-captionContainer:hover{
+    opacity: 1;
+}
+
+
+figure.effect-lily:hover h6,
+figure.effect-lily:hover p,
+figure.effect-lily:hover i,
+.staplesBuAd-SpotLgtUserPlayIcon:hover{
+    -webkit-transform: translate3d(0,0,0);
+    transform: translate3d(0,0,0);
+}
+
+figure.effect-lily:hover p {
+    -webkit-transition-delay: 0.05s;
+    transition-delay: 0.05s;
+    -webkit-transition-duration: 0.35s;
+    transition-duration: 0.35s;
+}
+
+/*Extra Small Devices Phones*/
+@media (max-width: 767px) {
+    .staplesBuAd-SpotLgtUserName{
+        font-size: 16px;
+        margin: 0;
+        margin: 0;
+        line-height: 1px;
+        padding: 0;
+        paddding-right:20px;
+    }
+    .staplesBuAd-SpotLgtUserInfo{
+        font-size: 13px;
+    }
+    .staplesBuAd-SpotLgtUserPlayIcon {
+        font-size: 16px;
+    }
+
+    /* fixes*/
+    .staplesBuAd-caption-header{
+        width: 243px;
+        font-size: 24px;
+        text-align: left;
+    }
+    .staplesBuAd-caption-button {
+        font-size: 20px;
+        padding-left: 10px;
+    }
+    .staplesBuAd-caption-info {
+        font-weight: normal;
+        width: 300px;
+        text-align: left;
+        font-size: 12px;
+    }
+    .staplesBuAd-breadCrumb{
+        position: absolute;
+        bottom: 112px;
+        left: 50%;
+        z-index: 15;
+        width: 60%;
+        padding-left: 0;
+        margin-left: -30%;
+        text-align: center;
+        list-style: none;
+    }
+    .staplesBuAd-firstCaption {
+        top: 130px;
+    }
+
+    /*Fix for 2nd carousel*/
+    .carousel-control .glyphicon-chevron-right {
+        margin-top: 67px;
+    }
+    .carousel-control .glyphicon-chevron-left, .carousel-control .glyphicon-chevron-right {
+        margin-top: 67px;
+    }
+}
+/* Small Devices Tablets*/
+@media (min-width: 768px) and (max-width: 991px) {
+
+
+}
+/*Medium devices Desktop*/
+@media (min-width: 992px) and (max-width: 1199px) {
+
+}
+/*Large devices Desktop*/
+@media (min-width: 1200px) {
+
+}
+
+/*second carousel ends*/
+
+/*second caro*/
+
+/*testimonial ends*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
