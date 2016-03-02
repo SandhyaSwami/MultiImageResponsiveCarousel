@@ -1,7 +1,7 @@
 Welcome to the world of Multi-Image Responsive Carousel!
 ===================
 
-Demo - <http://sandhyaswami.github.io/SingleImageResponsiveCarousel/index.html>
+ 
 [demo](http://sandhyaswami.github.io/MultiImageResponsiveCarousel/index.html)
 Now a days we are developing ***Responsive Web Applications*** and we want them should work across all the devices like 
 
